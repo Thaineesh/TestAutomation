@@ -1,0 +1,96 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Register  in a application",
+        "description": "",
+        "id": "login-application;register--in-a-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 36845232894,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on Login Page",
+            "match": {
+              "location": "Stepdefinition.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6545770962,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "title of login page is Register",
+            "match": {
+              "location": "Stepdefinition.title()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 854737784,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"JK\" and \"RJ\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "JK",
+                  "offset": 13
+                },
+                {
+                  "val": "RJ",
+                  "offset": 22
+                }
+              ],
+              "location": "Stepdefinition.enterDet(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241975653,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "cick register buttton",
+            "match": {
+              "location": "Stepdefinition.register()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SIT"
+          }
+        ]
+      }
+    ],
+    "name": "Login application",
+    "description": "",
+    "id": "login-application",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SIT"
+      }
+    ]
+  }
+]

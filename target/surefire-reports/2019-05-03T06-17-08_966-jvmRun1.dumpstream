@@ -1,0 +1,245 @@
+# Created on 2019-05-03T06:17:13.926
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2019-05-03T06:17:14.274
+Unexpected IOException: I,1,sun.desktop,windows
+
+
+# Created on 2019-05-03T06:17:14.277
+Unexpected IOException: I,1,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created on 2019-05-03T06:17:14.279
+Unexpected IOException: I,1,file.encoding.pkg,sun.io
+
+
+# Created on 2019-05-03T06:17:14.281
+Unexpected IOException: I,1,java.specification.version,1.8
+
+
+# Created on 2019-05-03T06:17:14.284
+Unexpected IOException: I,1,sun.cpu.isalist,amd64
+
+
+# Created on 2019-05-03T06:17:14.285
+Unexpected IOException: I,1,sun.jnu.encoding,Cp1252
+
+
+# Created on 2019-05-03T06:17:14.288
+Unexpected IOException: I,1,java.class.path,C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework\005Ctarget\005Ctest-classes;C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework\005Ctarget\005Cclasses;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-testng\005C1.2.5\005Ccucumber-testng-1.2.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-core\005C1.2.5\005Ccucumber-core-1.2.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-html\005C0.2.3\005Ccucumber-html-0.2.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Cgherkin\005C2.12.2\005Cgherkin-2.12.2.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ctestng\005Ctestng\005C6.9.10\005Ctestng-6.9.10.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.48\005Cjcommander-1.48.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cbeanshell\005Cbsh\005C2.0b4\005Cbsh-2.0b4.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-java\005C1.2.4\005Ccucumber-java-1.2.4.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-jvm-deps\005C1.0.5\005Ccucumber-jvm-deps-1.0.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Cmaven\005Csurefire\005Csurefire-testng-utils\005C2.21.0\005Csurefire-testng-utils-2.21.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Cmaven\005Csurefire\005Csurefire-grouper\005C2.21.0\005Csurefire-grouper-2.21.0.jar;
+
+
+# Created on 2019-05-03T06:17:14.289
+Unexpected IOException: I,1,java.vm.vendor,Oracle Corporation
+
+
+# Created on 2019-05-03T06:17:14.290
+Unexpected IOException: I,1,sun.arch.data.model,64
+
+
+# Created on 2019-05-03T06:17:14.291
+Unexpected IOException: I,1,user.variant,
+
+
+# Created on 2019-05-03T06:17:14.292
+Unexpected IOException: I,1,java.vendor.url,http://java.oracle.com/
+
+
+# Created on 2019-05-03T06:17:14.293
+Unexpected IOException: I,1,user.timezone,Asia/Calcutta
+
+
+# Created on 2019-05-03T06:17:14.294
+Unexpected IOException: I,1,os.name,Windows 7
+
+
+# Created on 2019-05-03T06:17:14.295
+Unexpected IOException: I,1,java.vm.specification.version,1.8
+
+
+# Created on 2019-05-03T06:17:14.298
+Unexpected IOException: I,1,user.country,US
+
+
+# Created on 2019-05-03T06:17:14.300
+Unexpected IOException: I,1,sun.java.launcher,SUN_STANDARD
+
+
+# Created on 2019-05-03T06:17:14.301
+Unexpected IOException: I,1,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Cbin
+
+
+# Created on 2019-05-03T06:17:14.303
+Unexpected IOException: I,1,sun.java.command,C:\005CUsers\005Cwin7\005CAppData\005CLocal\005CTemp\005Csurefire1098371610201511625\005Csurefirebooter7767578531759011687.jar C:\005CUsers\005Cwin7\005CAppData\005CLocal\005CTemp\005Csurefire1098371610201511625 2019-05-03T06-17-08_966-jvmRun1 surefire7251618909710965608tmp surefire_02751348487611684781tmp
+
+
+# Created on 2019-05-03T06:17:14.305
+Unexpected IOException: I,1,surefire.test.class.path,C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework\005Ctarget\005Ctest-classes;C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework\005Ctarget\005Cclasses;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.141.59\005Cselenium-java-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.141.59\005Cselenium-api-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.141.59\005Cselenium-chrome-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.141.59\005Cselenium-edge-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.141.59\005Cselenium-firefox-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.141.59\005Cselenium-ie-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.141.59\005Cselenium-opera-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.141.59\005Cselenium-remote-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.141.59\005Cselenium-safari-driver-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.141.59\005Cselenium-support-3.141.59.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.8.15\005Cbyte-buddy-1.8.15.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C25.0-jre\005Cguava-25.0-jre.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ccheckerframework\005Cchecker-compat-qual\005C2.0.0\005Cchecker-compat-qual-2.0.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.1.3\005Cerror_prone_annotations-2.1.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokhttp3\005Cokhttp\005C3.11.0\005Cokhttp-3.11.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Csquareup\005Cokio\005Cokio\005C1.14.0\005Cokio-1.14.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-testng\005C1.2.5\005Ccucumber-testng-1.2.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-core\005C1.2.5\005Ccucumber-core-1.2.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-html\005C0.2.3\005Ccucumber-html-0.2.3.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Cgherkin\005C2.12.2\005Cgherkin-2.12.2.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Ctestng\005Ctestng\005C6.9.10\005Ctestng-6.9.10.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.48\005Cjcommander-1.48.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Cbeanshell\005Cbsh\005C2.0b4\005Cbsh-2.0b4.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-java\005C1.2.4\005Ccucumber-java-1.2.4.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-jvm-deps\005C1.0.5\005Ccucumber-jvm-deps-1.0.5.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Cmaven\005Csurefire\005Csurefire-testng-utils\005C2.21.0\005Csurefire-testng-utils-2.21.0.jar;C:\005CUsers\005Cwin7\005C.m2\005Crepository\005Corg\005Capache\005Cmaven\005Csurefire\005Csurefire-grouper\005C2.21.0\005Csurefire-grouper-2.21.0.jar;
+
+
+# Created on 2019-05-03T06:17:14.306
+Unexpected IOException: I,1,sun.cpu.endian,little
+
+
+# Created on 2019-05-03T06:17:14.308
+Unexpected IOException: I,1,user.home,C:\005CUsers\005Cwin7
+
+
+# Created on 2019-05-03T06:17:14.309
+Unexpected IOException: I,1,user.language,en
+
+
+# Created on 2019-05-03T06:17:14.311
+Unexpected IOException: I,1,java.specification.vendor,Oracle Corporation
+
+
+# Created on 2019-05-03T06:17:14.313
+Unexpected IOException: I,1,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre
+
+
+# Created on 2019-05-03T06:17:14.314
+Unexpected IOException: I,1,basedir,C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework
+
+
+# Created on 2019-05-03T06:17:14.317
+Unexpected IOException: I,1,file.separator,\005C
+
+
+# Created on 2019-05-03T06:17:14.317
+Unexpected IOException: I,1,line.separator,\000D\000A
+
+
+# Created on 2019-05-03T06:17:14.319
+Unexpected IOException: I,1,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created on 2019-05-03T06:17:14.320
+Unexpected IOException: I,1,java.specification.name,Java Platform API Specification
+
+
+# Created on 2019-05-03T06:17:14.321
+Unexpected IOException: I,1,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created on 2019-05-03T06:17:14.322
+Unexpected IOException: I,1,surefire.real.class.path,C:\005CUsers\005Cwin7\005CAppData\005CLocal\005CTemp\005Csurefire1098371610201511625\005Csurefirebooter7767578531759011687.jar
+
+
+# Created on 2019-05-03T06:17:14.323
+Unexpected IOException: I,1,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Cclasses
+
+
+# Created on 2019-05-03T06:17:14.324
+Unexpected IOException: I,1,user.script,
+
+
+# Created on 2019-05-03T06:17:14.325
+Unexpected IOException: I,1,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created on 2019-05-03T06:17:14.326
+Unexpected IOException: I,1,java.runtime.version,1.8.0_201-b09
+
+
+# Created on 2019-05-03T06:17:14.327
+Unexpected IOException: I,1,user.name,win7
+
+
+# Created on 2019-05-03T06:17:14.328
+Unexpected IOException: I,1,path.separator,;
+
+
+# Created on 2019-05-03T06:17:14.329
+Unexpected IOException: I,1,os.version,6.1
+
+
+# Created on 2019-05-03T06:17:14.329
+Unexpected IOException: I,1,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cendorsed
+
+
+# Created on 2019-05-03T06:17:14.330
+Unexpected IOException: I,1,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created on 2019-05-03T06:17:14.331
+Unexpected IOException: I,1,file.encoding,Cp1252
+
+
+# Created on 2019-05-03T06:17:14.332
+Unexpected IOException: I,1,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created on 2019-05-03T06:17:14.332
+Unexpected IOException: I,1,localRepository,C:\005CUsers\005Cwin7\005C.m2\005Crepository
+
+
+# Created on 2019-05-03T06:17:14.333
+Unexpected IOException: I,1,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created on 2019-05-03T06:17:14.334
+Unexpected IOException: I,1,java.io.tmpdir,C:\005CUsers\005Cwin7\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created on 2019-05-03T06:17:14.335
+Unexpected IOException: I,1,java.version,1.8.0_201
+
+
+# Created on 2019-05-03T06:17:14.336
+Unexpected IOException: I,1,user.dir,C:\005CUsers\005Cwin7\005Cworkspace\005CBDDframework
+
+
+# Created on 2019-05-03T06:17:14.337
+Unexpected IOException: I,1,os.arch,amd64
+
+
+# Created on 2019-05-03T06:17:14.338
+Unexpected IOException: I,1,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created on 2019-05-03T06:17:14.339
+Unexpected IOException: I,1,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created on 2019-05-03T06:17:14.340
+Unexpected IOException: I,1,sun.os.patch.level,Service Pack 1
+
+
+# Created on 2019-05-03T06:17:14.341
+Unexpected IOException: I,1,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Cbin;C:\005CWindows\005CSun\005CJava\005Cbin;C:\005CWindows\005Csystem32;C:\005CWindows;C:/Program Files/Java/jre1.8.0_201/bin/server;C:/Program Files/Java/jre1.8.0_201/bin;C:/Program Files/Java/jre1.8.0_201/lib/amd64;C:\005CProgram Files (x86)\005CCommon Files\005COracle\005CJava\005Cjavapath;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CUsers\005Cwin7\005CDesktop\005Ceclipse-jee-neon-1-win32-x86_64\005Ceclipse;;.
+
+
+# Created on 2019-05-03T06:17:14.341
+Unexpected IOException: I,1,java.vm.info,mixed mode
+
+
+# Created on 2019-05-03T06:17:14.342
+Unexpected IOException: I,1,java.vendor,Oracle Corporation
+
+
+# Created on 2019-05-03T06:17:14.343
+Unexpected IOException: I,1,java.vm.version,25.201-b09
+
+
+# Created on 2019-05-03T06:17:14.343
+Unexpected IOException: I,1,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_201\005Cjre\005Clib\005Cext;C:\005CWindows\005CSun\005CJava\005Clib\005Cext
+
+
+# Created on 2019-05-03T06:17:14.344
+Unexpected IOException: I,1,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created on 2019-05-03T06:17:14.345
+Unexpected IOException: I,1,java.class.version,52.0
+
+
+# Created on 2019-05-03T06:17:14.353
+Unexpected IOException: 1,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
