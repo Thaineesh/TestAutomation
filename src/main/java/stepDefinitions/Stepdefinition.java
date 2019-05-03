@@ -24,6 +24,7 @@ public void title(){
 	driver.findElement(By.xpath("//a[@href='Register.html']")).click();
 	String title= driver.getTitle();
 	System.out.println(title);
+System.out.println(title);
 		
 }
 
